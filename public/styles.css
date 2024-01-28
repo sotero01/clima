@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transition: background 0.5s ease; 
+}
+
+#weather-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#weather-info {
+  margin-top: 20px;
+}
+
+
+.rainy {
+  background-image: url('chuva.png');
+}
+
+.sunny {
+  background-image: url('ceuclaro.png'); 
+}
+
+.cloudy {
+  background-image: url('nublado.png'); 
+}
+
+.thunderstorm {
+  background-image: url('tempestade.png'); 
+}
+
+
